@@ -33,7 +33,7 @@ const addCake = (submittedCake) => {
   })
   .then(response => response.json())
   .then(data => setCakes([...cakes,data]))
-  // 34 and 35 to add the cake to the page
+  // 34 and 35 to update the cakes state which will now include the new cake
 
 
   // const updatedCakes = [...cakes, submittedCake];
